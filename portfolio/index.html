@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a> 
+            <a href="#projects">PROJECTS</a>
+            <a href="#certificates">CERTIFICATIONS</a>
+            <a href="#contact">CONTACT  ME</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3><span>Welcome</span>,It's Me</h3>
+            <h1>Veerabalagan K</h1>
+            <h3>And I'm a</h3>
+            <p> A passionate Information Technology student and aspiring <span>  Web developer</span>.
+                I specialize in creating dynamic, user-friendly applications that deliver seamless user experiences. </p>
+               <div class="social-media">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+               </div>
+               <a href="Veerabalagan-resume.pdf" download="Resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="veerabala.jpg" >
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h2 class="heading"><span>Web Developer</span></h2>
+            <p> I am a passionate and dedicated final-year B.Tech Information Technology student at Kamaraj College of Engineering and Technology. I specialize in web development, creating efficient and user-friendly applications With a keen interest in full-stack development and hands-on project experience, I am eager to explore challenging opportunities in the IT industry.</p>
+            <button id="read-more-btn" class="btn">Read More</button>
+            <div id="more-about" class="hidden">
+                <h2 class="heading">Here <span>My  Skills</span></h2>
+                <div class="social-skills">
+                    <a href="#"><i class="fa-solid fa-c"></i></a>
+                    <a href="#"><i class="fa-brands fa-java"></i></a>
+                    <a href="#"><i class="fa-solid fa-code"></i>
+                    <a href="#"><i class="fa-brands fa-css"></i></a>
+                    <a href="#"><i class="fa-brands fa-js"></i></a>
+                    <a href="#"><i class="fa-solid fa-database"></i></a>
+                   </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="weather.png" alt="Project 1">
+                <h2 class="heading"><span>WEATHER APP</span></h2>
+                <p>I developed a web application using HTML, CSS, and JavaScript that integrates real-time weather data from the OpenWeather API. The app displays dynamic weather conditions based on the user's location, providing an interactive experience. To ensure smooth performance, I implemented robust error handling and input validation, ensuring users receive accurate data and a seamless experience regardless of input errors.</p>
+                <a href="https://weatherapps-website.vercel.app/" class="btn">View Project</a>
+            </div>
+        
+            <div class="project-box">
+                <img src="food.jpg" alt="Project 2">
+                <h2 class="heading"><span>FOOD ORDERING SYSTEM</span></h2>
+                <p>This responsive web application, built using HTML, CSS, and JavaScript, allows users to browse restaurant menus, add items to their cart, and place orders easily. The system includes features such as user authentication, dynamic content updates, and a smooth checkout process, ensuring a seamless and engaging user experience. The design is optimized for different screen sizes, making it fully responsive and user-friendly across various devices.</p>
+                <a href="https://food-cart-website.vercel.app/" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section class="certificates" id="certificates">
+        <h2 class="heading"><span>Certifications</span></h2>
+        <div class="certificate-grid">
+            <div class="certificate-box">
+                <h2 class="heading" >Full-Stack Web Development using React.js -<span>Abservtech Pvt. Ltd.(June 2023 – July 2023)</span> </h2>
+                
+                <p>Collaborated with a development team to design and implement new features, demonstrating expertise in React components.</p>
+                <a href="https://shorturl.at/zyNaj" class="btn">View Certificate</a>
+
+            </div>
+            <div class="certificate-box">
+                <h2 class="heading" >Database Fundamentals Concepts - <span>Springboard</span> </h2>
+                <p>Gained a strong understanding of fundamental database concepts, data storage, and query execution.</p>
+                <a href="https://shorturl.at/U76Jz" class="btn">View Certificate</a>
+            </div>
+    
+            <div class="certificate-box">
+                <h2 class="heading" >Data Science with Tableau - <span> WhitePixel Technologies</span></h2>
+                <p>Developed data visualization and analytical skills using Tableau to derive insights from complex datasets.</p>
+                <a href="https://shorturl.at/Ht8ch" class="btn">View Certificate</a>
+            </div>
+    
+            <div class="certificate-box">
+                <h2 class="heading" >Web Application Development using JSP and Web Services - <span>Silicon Software Services</span></h2>
+                <p>Learned how to build and deploy dynamic web applications using JSP and integrate web services.</p>
+                <a href="https://shorturl.at/meSJE" class="btn">View Certificate</a>
+            </div> 
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>   Me</span></h2>  
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="b04ef4be-fa20-449c-97a6-da514b20d994">
+        
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        
+    <!-- <div class="contact-info">
+        <h2 ><span>Contact Info</span></h2>
+        <a href="tel:(+91)7094586140" class="contact-btn">Call Me</a>
+        <a href="mailto:veerabala03@email.com" class="contact-btn">Send Email </a>
+    </div> -->
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
